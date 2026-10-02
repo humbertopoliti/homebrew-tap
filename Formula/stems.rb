@@ -4,28 +4,28 @@
 class Stems < Formula
   desc "Local environment management toolkit for multi-process systems"
   homepage "https://github.com/humbertopoliti/stems"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/humbertopoliti/stems/releases/download/v0.2.0/stems-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "af8a2d7feb259d93da45b34223a226d74c6c593c38eea629b484453c5a80259e"
+      url "https://github.com/humbertopoliti/stems/releases/download/v0.3.0/stems-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "dbdb6fd31e82107f751221342f328b72006decfdd29f24418d7ce15ae8aebdd7"
     end
     on_intel do
-      url "https://github.com/humbertopoliti/stems/releases/download/v0.2.0/stems-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "74a020d3f21e5d1f45a9a468b1a5f4fb9b4f2554d383ad8d86a7aa2e95db7b88"
+      url "https://github.com/humbertopoliti/stems/releases/download/v0.3.0/stems-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "590c7962d52162589243a2df8d82f4deb65ec33eeea6968f44153d9878cca674"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/humbertopoliti/stems/releases/download/v0.2.0/stems-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "468c7e265ad87e004b027cbf82547b1f972c833a4bba535e07394b537837b7f3"
+      url "https://github.com/humbertopoliti/stems/releases/download/v0.3.0/stems-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "535c8f1deed34a7841df7dbbfc7bd187c19687ec87904e4c2affc2118a54e9d4"
     end
     on_intel do
-      url "https://github.com/humbertopoliti/stems/releases/download/v0.2.0/stems-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "79fe1bb742eaf743e6b799dda38568009865472a9295c9bf5d8199a4fb903307"
+      url "https://github.com/humbertopoliti/stems/releases/download/v0.3.0/stems-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a278390bfdff20caba6cdb31bd919cab545cc175e8a9139a6399b6fa96d44ca4"
     end
   end
 
